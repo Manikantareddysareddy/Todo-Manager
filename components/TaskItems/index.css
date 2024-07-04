@@ -1,0 +1,30 @@
+.task-container {
+  display: flex;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 18vw;
+  margin: 10px;
+}
+.task-heading {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  background-color: transparent;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  height: 4vh;
+  width: 4vw;
+  align-self: center;
+}
+.delete-btn {
+  cursor: pointer;
+  border: 0 none;
+  background-color: transparent;
+}
